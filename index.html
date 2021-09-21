@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Prueba de Html</title>
+    <!-- esta es la ruta de bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- esta linea es para combinar CSS-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form>
+        <img class="mb-4" src="Logo.png" alt width="132" height="107" />
+        <!--<div class="Prueba_estilo">-->
+        <h1 class="h3 mb-3 fw-normal">INGRESAR</h1>
+        <div class="form-floating">
+          <input
+            type="username"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Usuario</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
+          <label for="floatingPassword">Contraseña</label>
+        </div>
+        <div class="checkbox mb-3">
+          <label> <input type="checkbox" value="rememer-me" /> Recordar </label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-success" type="submit">
+          Connect
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2021 WinnegTeam MinTic_Udea</p>
+        <!-- Esta linea importa JS de bootstrap-->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous"
+        ></script>
+      </form>
+    </main>
+  </body>
+</html>
